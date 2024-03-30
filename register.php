@@ -16,7 +16,7 @@
 
        try {
         $sql = "INSERT INTO users (username, password) VALUES
-       ('$username', '$password')";
+       ('$username', '$hash_password')";
 
        if($db->query($sql)) {
             $register_message = "daftar akun berhasil, silahkan login";

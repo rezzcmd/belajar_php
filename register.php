@@ -48,8 +48,8 @@
     <h3>DAFRTAR AKUN</h3>
     <i><?= $register_message ?></i>
     <form action="register.php" method="POST">
-        <input type="text" placeholder="username" name="username"/>
-        <input type="password" placeholder="password" name="password"/>
+        <input type="text" placeholder="username" name="username" required/>
+        <input type="password" placeholder="password" name="password" required/>
         <button type="submit" name="register">daftar sekarang</button>
     </form>
 
